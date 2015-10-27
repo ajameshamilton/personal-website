@@ -1,0 +1,61 @@
+
+
+	 .image{
+    max-width: 200px;
+    float:left;
+    margin-left:5vw;
+    margin-right:10vw;
+  }
+
+  main p {
+		font-size:1.5em;
+		margin-top:60px;
+
+	}
+
+	h3 {
+		font-size:2em;
+	}
+
+	.pcleft {
+		float:left;
+		margin-right:20px;
+	}
+	.pcright {
+		float:right;
+		margin-left:20px;
+	}
+
+
+
+#footerlogo {
+	max-width:150px;
+
+}
+
+p {
+	padding-left:10vw;
+	padding-right:10vw;
+}
+
+/***********************
+Responsive Tags 
+***********************/
+.mobonly {
+	display:none;
+}
+.wideonly {
+	display:block;
+}
+
+
+@media (min-width:600px) {
+	.set li {
+  max-width:30%;
+
+  p {
+  	font-size: 1em;
+  }
+}
+
+}

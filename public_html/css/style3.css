@@ -1,0 +1,195 @@
+/********************************
+Font Imports
+*******************************/
+
+@font-face {
+	font-family:'JosephinThin';
+	src:url('../fonts/JosefinSans-Regular.ttf');
+	
+}
+/************************ 
+general styling 
+*************************/
+
+
+main {
+	padding:15px;
+	text-align:center;
+
+}
+
+*{
+	font-family:'JosephinThin', 'sans';
+}
+
+ul {
+	list-style:none;
+	padding-left:0;
+}
+
+.clear {
+		clear:both;
+	}
+
+.center {
+	display:block;
+	margin:auto;
+}
+
+.centertext {
+	text-align:center;
+}
+
+
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #384B6B,
+    1px -1px 0 #384B6B,
+    -1px 1px 0 #384B6B,
+    1px 1px 0 #384B6B;  
+}
+.selected {
+	color:#65779D;
+}
+
+a{
+	font-weight:bold;
+	color:#364A65;
+}
+
+
+#profile {
+
+	border-radius:50%;
+}
+
+.short {
+	max-width:40vw;
+}
+
+.long {
+	max-width:80vw;
+}
+
+.wideonly {
+	display:none;
+}
+
+.image {
+	max-width:50vw;
+	border: 1px solid #364A65;
+	border-radius:10%;
+}
+
+
+/*******
+HEADER
+******/
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 10x 0 0;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0 10px;
+ padding: 0; 
+}
+
+nav li {
+ display: inline-block; 
+}
+
+nav a {
+ font-weight: bold;
+ padding: 15px 10px;
+ color:white;
+ font-size:1.7em;
+}
+
+#regheader {
+	background: linear-gradient(0deg, #fff, transparent 35%), url('../images/header.png') no-repeat center;
+	background-size:cover;
+	background-position:center;
+	height:20vh;
+	border-bottom:1px solid white;
+	padding-top:1vh;
+}
+
+#navlogo {
+	width:75vw;
+	max-width:300px;
+	margin-top:-20px;
+}
+
+
+
+/*******************
+Footer 
+********************/
+#footer {
+	border-top:#364a65 1px;
+    padding-top:10px;
+  padding-bottom:10px;
+  background-color:#364a65;
+  padding-left:0;
+  overflow:auto;
+
+}
+
+footer a p {
+	font-size: 1.2em;
+	margin: 0 auto -5px auto;
+}
+
+.footertext {
+	color:#ffffe8;
+
+}
+
+.icon {
+	width:30px;
+	border-radius:5px;
+}
+
+.li {
+  margin:7px;
+	display:inline-block;
+}
+
+
+
+
+a {
+	text-decoration:none;
+}
+
+
+
+
+/********************************
+INDEX STYLING
+********************************/
+#mainheader {
+	background: linear-gradient(0deg, #fff, transparent 35%), url('../images/flatironmountains.jpg') no-repeat center;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	border-bottom:1px solid white;
+	padding-top:1vh;
+}
+
+#mainlogo {
+	width:93vw;
+	max-width:600px;
+	}
+
+#arrow {
+	max-width:40px;
+	margin-top:50vh;
+	max-height:50px;
+}
